@@ -47,22 +47,22 @@ The project architecture is based on a Graph-based Workflow and an intelligent R
 
 ```mermaid
 graph TD
-    User([User Request]) --> Router{Semantic Router (Gemini)}
+    User(["User Request"]) --> Router{"Semantic Router (Gemini)"}
     
-    Router -->|update_db| Scanner[Scanner Agent]
-    Router -->|lookup_price| Lookup[Price Lookup Agent]
-    Router -->|recommend_price| Recommender[Price Recommender]
-    Router -->|competitive_analysis| Analyzer[Competitive Analyzer]
+    Router -->|update_db| Scanner["Scanner Agent"]
+    Router -->|lookup_price| Lookup["Price Lookup Agent"]
+    Router -->|recommend_price| Recommender["Price Recommender"]
+    Router -->|competitive_analysis| Analyzer["Competitive Analyzer"]
     
-    Scanner -->|Tool| MarketScanner[market_scanner.py (GraphQL to Airbnb)]
-    Scanner -->|Save| JSON[(Local Data Lake)]
+    Scanner -->|Tool| MarketScanner["market_scanner.py (GraphQL to Airbnb)"]
+    Scanner -->|Save| JSON[("Local Data Lake")]
     
     Lookup -->|Tool: read_airbnb_data| JSON
     Recommender -->|Tool: read_airbnb_data| JSON
     Analyzer -->|Tool: read_airbnb_data| JSON
     
-    JSON -.->|FastMCP Protocol| MCPServer[mcp_server.py]
-    MCPServer -.->|Exposes Tool/Resource| ExternalClients([External MCP Clients])
+    JSON -.->|FastMCP Protocol| MCPServer["mcp_server.py"]
+    MCPServer -.->|Exposes Tool/Resource| ExternalClients(["External MCP Clients"])
 ```
 
 #### A. The Semantic Router (Classifier)
@@ -178,22 +178,22 @@ L'architettura del progetto si basa su un Workflow basato su Grafi e un Router i
 
 ```mermaid
 graph TD
-    User([Richiesta Utente]) --> Router{Router Semantico (Gemini)}
+    User(["Richiesta Utente"]) --> Router{"Router Semantico (Gemini)"}
     
-    Router -->|update_db| Scanner[Scanner Agent]
-    Router -->|lookup_price| Lookup[Price Lookup Agent]
-    Router -->|recommend_price| Recommender[Price Recommender]
-    Router -->|competitive_analysis| Analyzer[Competitive Analyzer]
+    Router -->|update_db| Scanner["Scanner Agent"]
+    Router -->|lookup_price| Lookup["Price Lookup Agent"]
+    Router -->|recommend_price| Recommender["Price Recommender"]
+    Router -->|competitive_analysis| Analyzer["Competitive Analyzer"]
     
-    Scanner -->|Tool| MarketScanner[market_scanner.py (GraphQL verso Airbnb)]
-    Scanner -->|Salva| JSON[(Data Lake Locale)]
+    Scanner -->|Tool| MarketScanner["market_scanner.py (GraphQL verso Airbnb)"]
+    Scanner -->|Salva| JSON[("Data Lake Locale")]
     
     Lookup -->|Tool: read_airbnb_data| JSON
     Recommender -->|Tool: read_airbnb_data| JSON
     Analyzer -->|Tool: read_airbnb_data| JSON
     
-    JSON -.->|Protocollo FastMCP| MCPServer[mcp_server.py]
-    MCPServer -.->|Espone Tool/Resource| ExternalClients([Client MCP Esterni])
+    JSON -.->|Protocollo FastMCP| MCPServer["mcp_server.py"]
+    MCPServer -.->|Espone Tool/Resource| ExternalClients(["Client MCP Esterni"])
 ```
 
 #### A. Il Router Semantico (Classifier)
