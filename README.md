@@ -120,7 +120,7 @@ uv sync
 
 #### 4. Run the Agent (Local Playground)
 ```bash
-uv run google-agents-cli playground
+uvx google-agents-cli playground
 ```
 Once the server starts, open your browser to `http://127.0.0.1:8080/dev-ui/?app=app`.
 
@@ -250,7 +250,7 @@ uv sync
 
 #### 4. Esegui l'Agente (Playground Locale)
 ```bash
-uv run google-agents-cli playground
+uvx google-agents-cli playground
 ```
 Apri il tuo browser e naviga al link fornito nel terminale (di solito `http://127.0.0.1:8080/dev-ui/?app=app`).
 
