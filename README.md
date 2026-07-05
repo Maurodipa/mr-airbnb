@@ -6,6 +6,9 @@
 
 **Selected Track**: AI Agents for Business Productivity (or Open Innovation)
 
+### 🎯 Project Goal
+The goal of this project is to build an autonomous AI Agent ecosystem that helps Airbnb hosts define their pricing strategy. It automatically bypasses Airbnb's anti-bot protections and opaque pricing structures (cleaning fees, service fees, minimum stays) to extract the pure nightly rates of local competitors. A Multi-Agent Semantic Router then analyzes this data to provide actionable business intelligence and automated pricing recommendations.
+
 ---
 
 ## 🏆 Kaggle Evaluation Mapping
@@ -149,6 +152,9 @@ Questo progetto soddisfa esplicitamente i seguenti concetti chiave richiesti per
 ---
 
 ## 🇮🇹 Versione Italiana
+
+### 🎯 Obiettivo del Progetto
+L'obiettivo di questo progetto è creare un ecosistema autonomo di Agenti AI che aiuti gli host di Airbnb a definire la propria strategia di prezzo. Il sistema aggira automaticamente le logiche anti-bot e le complesse strutture di prezzo di Airbnb (spese di pulizia, costi di servizio, minimum stay) per estrarre le vere tariffe notturne dei competitor locali. Un Router Semantico Multi-Agente analizza poi questi dati per fornire un'analisi di mercato avanzata e raccomandazioni sui prezzi.
 
 ### 1. Il Problema: L'Opacità del Mercato degli Affitti Brevi
 Nel mercato altamente competitivo degli affitti brevi (Airbnb, Booking), l'analisi della concorrenza è fondamentale. Tuttavia, estrarre il "vero" prezzo per notte di un competitor è diventato un incubo matematico e tecnico.
