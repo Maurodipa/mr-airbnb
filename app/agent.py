@@ -35,13 +35,16 @@ COMPETITOR_MAPPING, USER_APT_ID = load_competitor_context()
 import truststore
 truststore.inject_into_ssl()
 
-try:
-    _, project_id = google.auth.default()
-    os.environ["GOOGLE_CLOUD_PROJECT"] = project_id
-    os.environ["GOOGLE_CLOUD_LOCATION"] = "global"
-    os.environ["GOOGLE_GENAI_USE_VERTEXAI"] = "True"
-except DefaultCredentialsError:
-    os.environ["GOOGLE_GENAI_USE_VERTEXAI"] = "False"
+# Force the use of the free Gemini API (AI Studio) instead of Vertex AI to avoid billing errors
+os.environ["GOOGLE_GENAI_USE_VERTEXAI"] = "False"
+if "GOOGLE_APPLICATION_CREDENTIALS" in os.environ:
+    del os.environ["GOOGLE_APPLICATION_CREDENTIALS"]
+if "GOOGLE_CLOUD_PROJECT" in os.environ:
+    del os.environ["GOOGLE_CLOUD_PROJECT"]
+
+# Create a global client forcing the API key to bypass any other credentials
+api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+global_client = genai.Client(api_key=api_key)
 
 # =====================================================================
 # KAGGLE KEY CONCEPT: Agent / Multi-agent system (ADK)
@@ -59,7 +62,7 @@ def classifier(node_input: str):
     to semantically understand the user's intent in natural language
     and route the execution flow to the correct specialized sub-agent.
     """
-    client = genai.Client()
+    client = global_client
     prompt = f"""You are a routing agent. You must respond ONLY with the exact route name (e.g., 'lookup_price', 'update_db'). Do not add any punctuation, markdown formatting, explanations, or extra words.
 Available routes:
 - update_db: updating the database, running the scanner, fetching new data.
@@ -89,7 +92,7 @@ User input: {node_input}"""
 # has a specific system prompt and access to specific tools.
 scanner_agent = LlmAgent(
     name="scanner_agent",
-    model=Gemini(model="gemini-flash-latest"),
+    model=Gemini(model="gemini-flash-latest", client=global_client),
     instruction="""You are the Airbnb Data Scanner. Your job is to fetch the latest Airbnb listing details
     by running the `run_market_scanner` tool. This tool handles the anti-bot delays and saves the data directly
     into the database. Ensure you ask the user for a start and end date if they are not provided, or infer them.
@@ -100,7 +103,7 @@ scanner_agent = LlmAgent(
 
 price_lookup_agent = LlmAgent(
     name="price_lookup_agent",
-    model=Gemini(model="gemini-flash-latest"),
+    model=Gemini(model="gemini-flash-latest", client=global_client),
     instruction=f"""You are the Airbnb Price Lookup Assistant. Your job is to answer queries like "What is the rate for this period for apartment X?".
     Use the `read_airbnb_data` tool to check the processed rates in the database.
     You can map the following names to apartment IDs:{COMPETITOR_MAPPING}
@@ -112,7 +115,7 @@ price_lookup_agent = LlmAgent(
 
 price_recommender = LlmAgent(
     name="price_recommender",
-    model=Gemini(model="gemini-flash-latest"),
+    model=Gemini(model="gemini-flash-latest", client=global_client),
     instruction=f"""You are the Airbnb Pricing Consultant. Your job is to analyze historical and current
     pricing data from the JSON database using the `read_airbnb_data` tool and recommend the best nightly
     rate for the user's apartment for a specific date or period. Take into account how prices change
@@ -125,7 +128,7 @@ price_recommender = LlmAgent(
 
 competitive_analyzer = LlmAgent(
     name="competitive_analyzer",
-    model=Gemini(model="gemini-flash-latest"),
+    model=Gemini(model="gemini-flash-latest", client=global_client),
     instruction=f"""You are the Airbnb Competitive Analyst. Your job is to analyze the data from the
     JSON database using the `read_airbnb_data` tool to provide a competitive analysis of apartments
     in the market. Identify trends, high and low prices, and positioning.
@@ -137,7 +140,7 @@ competitive_analyzer = LlmAgent(
 
 general_agent = LlmAgent(
     name="general_agent",
-    model=Gemini(model="gemini-flash-latest"),
+    model=Gemini(model="gemini-flash-latest", client=global_client),
     instruction="You are a helpful assistant for an Airbnb host. Clarify what the user wants to do with their Airbnb data: update database, look up a price, ask for a price recommendation, or request a competitive analysis."
 )
 

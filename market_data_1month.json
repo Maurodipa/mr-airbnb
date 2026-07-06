@@ -1581,13 +1581,16 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T22:33:09.217997"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T22:32:48.246592"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T22:33:01.970438"
     },
     "1280484040857767756": {
       "status": "OK",
@@ -1604,7 +1607,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "602489771443051475": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T22:32:55.589202"
     }
   },
   "2026-08-02": {
@@ -1631,7 +1635,7 @@
     },
     "14290915": {
       "status": "Non disponibile",
-      "collected_at": "2026-07-05T17:21:52.973170"
+      "collected_at": "2026-07-05T22:33:30.640745"
     },
     "1589943047991118285": {
       "status": "OK",
@@ -1642,7 +1646,7 @@
     },
     "1243259212458138393": {
       "status": "Non disponibile",
-      "collected_at": "2026-07-05T17:21:43.338054"
+      "collected_at": "2026-07-05T22:33:23.363993"
     },
     "1280484040857767756": {
       "status": "OK",
@@ -1660,7 +1664,7 @@
     },
     "602489771443051475": {
       "status": "Non disponibile",
-      "collected_at": "2026-07-05T17:21:34.469427"
+      "collected_at": "2026-07-05T22:33:16.035891"
     }
   },
   "2026-08-03": {
@@ -1687,7 +1691,7 @@
     },
     "14290915": {
       "status": "Non disponibile",
-      "collected_at": "2026-07-05T17:22:22.506592"
+      "collected_at": "2026-07-05T22:33:54.152158"
     },
     "1589943047991118285": {
       "status": "OK",
@@ -1698,7 +1702,7 @@
     },
     "1243259212458138393": {
       "status": "Non disponibile",
-      "collected_at": "2026-07-05T17:22:12.559117"
+      "collected_at": "2026-07-05T22:33:46.778859"
     },
     "1280484040857767756": {
       "status": "OK",
@@ -1716,7 +1720,7 @@
     },
     "602489771443051475": {
       "status": "Non disponibile",
-      "collected_at": "2026-07-05T17:22:02.252115"
+      "collected_at": "2026-07-05T22:33:38.182073"
     }
   },
   "2026-08-04": {
@@ -1743,7 +1747,7 @@
     },
     "14290915": {
       "status": "Non disponibile",
-      "collected_at": "2026-07-04T19:14:11.553492"
+      "collected_at": "2026-07-05T22:34:15.618761"
     },
     "1589943047991118285": {
       "status": "OK",
@@ -1754,7 +1758,7 @@
     },
     "1243259212458138393": {
       "status": "Non disponibile",
-      "collected_at": "2026-07-04T19:14:04.536751"
+      "collected_at": "2026-07-05T22:34:07.754447"
     },
     "1280484040857767756": {
       "status": "OK",
@@ -1772,7 +1776,7 @@
     },
     "602489771443051475": {
       "status": "Non disponibile",
-      "collected_at": "2026-07-04T19:14:19.237450"
+      "collected_at": "2026-07-05T22:34:01.133338"
     }
   },
   "2026-08-05": {
@@ -1799,19 +1803,19 @@
     },
     "14290915": {
       "status": "Non disponibile",
-      "collected_at": "2026-07-04T19:14:50.543955"
+      "collected_at": "2026-07-05T22:34:56.210037"
     },
     "1589943047991118285": {
       "status": "Non disponibile",
-      "collected_at": "2026-07-04T19:14:27.023011"
+      "collected_at": "2026-07-05T22:34:24.045243"
     },
     "1243259212458138393": {
       "status": "Non disponibile",
-      "collected_at": "2026-07-04T19:14:35.415817"
+      "collected_at": "2026-07-05T22:34:45.864921"
     },
     "1280484040857767756": {
       "status": "Non disponibile",
-      "collected_at": "2026-07-04T19:14:43.620478"
+      "collected_at": "2026-07-05T22:34:38.805851"
     },
     "1105673287932582735": {
       "status": "OK",
@@ -1822,7 +1826,7 @@
     },
     "602489771443051475": {
       "status": "Non disponibile",
-      "collected_at": "2026-07-04T19:14:57.634584"
+      "collected_at": "2026-07-05T22:34:31.364401"
     }
   },
   "2026-08-06": {
@@ -1848,16 +1852,20 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T22:35:31.536456"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T22:35:02.885887"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T22:35:24.661534"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T22:35:16.738854"
     },
     "1105673287932582735": {
       "status": "OK",
@@ -1867,7 +1875,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "602489771443051475": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T22:35:09.859030"
     }
   },
   "2026-08-07": {
@@ -1893,16 +1902,20 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T22:36:08.893802"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T22:35:39.499287"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T22:36:00.917347"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T22:35:53.886180"
     },
     "1105673287932582735": {
       "status": "OK",
@@ -1912,7 +1925,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "602489771443051475": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T22:35:46.711283"
     }
   },
   "2026-08-08": {
@@ -1938,16 +1952,20 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:53:23.134351"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:52:47.295355"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:53:15.271467"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:53:05.411601"
     },
     "1105673287932582735": {
       "status": "OK",
@@ -1957,7 +1975,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "602489771443051475": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:52:55.443246"
     }
   },
   "2026-08-09": {
@@ -1983,16 +2002,20 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:54:09.268366"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:53:31.790517"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:53:59.199349"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:53:50.093097"
     },
     "1105673287932582735": {
       "status": "OK",
@@ -2002,7 +2025,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "602489771443051475": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:53:40.757227"
     }
   },
   "2026-08-10": {
@@ -2028,16 +2052,20 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:54:59.559115"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:54:20.103553"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:54:50.395467"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:54:35.221948"
     },
     "1105673287932582735": {
       "status": "OK",
@@ -2077,16 +2105,20 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:55:48.567333"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:55:10.428704"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:55:38.533498"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:55:27.035340"
     },
     "1105673287932582735": {
       "status": "OK",
@@ -2096,7 +2128,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "602489771443051475": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:55:18.344439"
     }
   },
   "2026-08-12": {
@@ -2122,16 +2155,20 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:56:37.559885"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:55:58.162192"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:56:29.796707"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:56:17.283401"
     },
     "1105673287932582735": {
       "status": "OK",
@@ -2141,7 +2178,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "602489771443051475": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:56:07.425630"
     }
   },
   "2026-08-13": {
@@ -2167,16 +2205,20 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:57:23.281440"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:56:46.503358"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:57:13.894346"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:57:02.259624"
     },
     "1105673287932582735": {
       "status": "OK",
@@ -2186,7 +2228,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "602489771443051475": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:56:55.121802"
     }
   },
   "2026-08-14": {
@@ -2212,16 +2255,20 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:58:12.128132"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:57:34.251464"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:58:02.222221"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:57:52.108508"
     },
     "1105673287932582735": {
       "status": "OK",
@@ -2231,7 +2278,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "602489771443051475": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:57:42.028678"
     }
   },
   "2026-08-15": {
@@ -2257,16 +2305,20 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:58:51.365653"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:58:19.553754"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:58:43.631745"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:58:35.455409"
     },
     "1105673287932582735": {
       "status": "OK",
@@ -2276,7 +2328,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "602489771443051475": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:58:27.661951"
     }
   },
   "2026-08-16": {
@@ -2302,7 +2355,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:59:26.264860"
     },
     "1589943047991118285": {
       "status": "OK",
@@ -2312,10 +2366,12 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:59:17.950470"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:59:08.757927"
     },
     "1105673287932582735": {
       "status": "OK",
@@ -2325,7 +2381,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "602489771443051475": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:59:01.268740"
     }
   },
   "2026-08-17": {
@@ -2351,13 +2408,16 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:59:58.169639"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:59:35.155319"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:59:50.269132"
     },
     "1280484040857767756": {
       "status": "OK",
@@ -2374,7 +2434,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "602489771443051475": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T17:59:42.762574"
     }
   },
   "2026-08-18": {
@@ -2400,13 +2461,16 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:00:30.466523"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:00:06.432419"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:00:22.275014"
     },
     "1280484040857767756": {
       "status": "OK",
@@ -2423,7 +2487,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "602489771443051475": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:00:14.241858"
     }
   },
   "2026-08-19": {
@@ -2449,16 +2514,20 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:01:09.710463"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:00:39.032352"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:01:01.917724"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:00:54.130245"
     },
     "1105673287932582735": {
       "status": "OK",
@@ -2468,7 +2537,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "602489771443051475": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:00:46.415203"
     }
   },
   "2026-08-20": {
@@ -2494,19 +2564,24 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:01:52.237872"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:01:17.540809"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:01:35.095905"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:01:25.493829"
     },
     "1105673287932582735": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:01:43.563112"
     },
     "602489771443051475": {
       "status": "OK",
@@ -2539,7 +2614,8 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:02:23.284729"
     },
     "1589943047991118285": {
       "status": "OK",
@@ -2549,13 +2625,16 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:02:07.249811"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:02:00.169024"
     },
     "1105673287932582735": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:02:15.517751"
     },
     "602489771443051475": {
       "status": "OK",
@@ -2588,19 +2667,24 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:05:40.445486"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:02:32.083368"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:05:23.267958"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:05:13.019634"
     },
     "1105673287932582735": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:05:31.281978"
     },
     "602489771443051475": {
       "status": "OK",
@@ -2640,13 +2724,16 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:05:49.572783"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:06:07.151882"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:05:58.906095"
     },
     "1105673287932582735": {
       "status": "OK",
@@ -2686,16 +2773,20 @@
       "collected_at": "2026-06-20T00:00:00"
     },
     "14290915": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:06:47.205099"
     },
     "1589943047991118285": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:06:16.040682"
     },
     "1243259212458138393": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:06:36.716610"
     },
     "1280484040857767756": {
-      "status": "Non disponibile"
+      "status": "Non disponibile",
+      "collected_at": "2026-07-05T18:06:23.800286"
     },
     "1105673287932582735": {
       "status": "OK",
@@ -2740,15 +2831,15 @@
     },
     "1589943047991118285": {
       "status": "Non disponibile",
-      "collected_at": "2026-06-28T17:57:01.988468"
+      "collected_at": "2026-07-05T18:06:54.809491"
     },
     "1243259212458138393": {
       "status": "Non disponibile",
-      "collected_at": "2026-06-28T17:57:11.713556"
+      "collected_at": "2026-07-05T18:07:20.992401"
     },
     "1280484040857767756": {
       "status": "Non disponibile",
-      "collected_at": "2026-06-28T17:57:20.369637"
+      "collected_at": "2026-07-05T18:07:11.051184"
     },
     "1105673287932582735": {
       "status": "Non disponibile",
@@ -2756,7 +2847,7 @@
     },
     "602489771443051475": {
       "status": "Non disponibile",
-      "collected_at": "2026-06-28T17:57:51.615445"
+      "collected_at": "2026-07-05T18:07:03.017770"
     }
   },
   "2025-06-30": {
