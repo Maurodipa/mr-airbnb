@@ -4,3 +4,10 @@ __pycache__/
 *.json
 .agents/
 inject_truststore/
+*.bak*
+*.png
+*.bat
+*.ps1
+app/.adk/
+.google-agents-cli/
+Kaggle Capstone competition/
